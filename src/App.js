@@ -1,6 +1,8 @@
+import CookingBook from "./components/CookingBook";
+
 function App() {
   return (
-    <h1> cooking app</h1>
+    <CookingBook />
   );
 }
 
