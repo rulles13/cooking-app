@@ -15,7 +15,7 @@ const CookingBook = () => {
     return (
         <>
             <h1>React Cooking Book</h1>
-            <ul>
+            <ul className='receipts'>
                 {
                     receipts.map((meal, index) => (<Card key={index} meal={meal}/>))
                 }
